@@ -2,6 +2,7 @@ import { View} from 'react-native';
 import  Login   from '../components/Login.jsx'
 import { Redirect } from 'expo-router';
 import {auth} from './../configs/FirebaseConfig.js';
+import 'react-native-get-random-values';
 
 
 export default function HomeScreen() {
